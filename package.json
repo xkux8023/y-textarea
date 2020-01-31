@@ -1,8 +1,15 @@
 {
-  "name": "y-textarea",
+  "name": "@xkux8023/y-textarea",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "types/*"
+  ],
+  "main": "lib/y-textarea.umd.min.js",
   "scripts": {
+    "lib": "vue-cli-service build --dest lib --target lib --name y-textarea ./src/packages/index.ts",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -21,5 +28,21 @@
     "less-loader": "^5.0.0",
     "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkux8023/y-textarea.git"
+  },
+  "keywords": [
+    "auto",
+    "height",
+    "textarea"
+  ],
+  "author": "xkux8023",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkux8023/y-textarea/issues"
+  },
+  "homepage": "https://github.com/xkux8023/y-textarea#readme"
 }
